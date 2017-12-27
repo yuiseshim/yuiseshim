@@ -4,10 +4,14 @@
 brew cask install emacs
 brew cask install google-chrome
 brew cask install google-drive
+brew cask install xquartz
+brew cask install github
+brew cask install texshop
 brew cask cleanup
 
 brew install nkf
 brew install git svn wget
+brew install pyenv pyenv-virtualenv
 brew cleanup
 
 
