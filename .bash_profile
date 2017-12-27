@@ -16,6 +16,7 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 export EDITOR=emacs
 export HOMEBREW_GITHUB_API_TOKEN=08b16c59d36ae5227ede942aaf6a403ff098698a
 export HOMEBREW_NO_ANALYTICS=1
+export HOMEBREW_CASK_OPTS=“–appdir=/Applications”
 
 ## Set path for pyenv
 export PATH="$PATH:$HOME/.pyenv/shims"
