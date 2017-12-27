@@ -1,4 +1,5 @@
-
+# .bashrc
+# by boot shell
 
 # -------
 # Aliases
