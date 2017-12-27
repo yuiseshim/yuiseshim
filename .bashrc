@@ -1,9 +1,4 @@
-#Colors
-export CLICOLOR=1
-export LSCOLORS=ExFxCxDxBxegedabagacad
 
-export EDITOR=emacs
-export HOMEBREW_GITHUB_API_TOKEN=08b16c59d36ae5227ede942aaf6a403ff098698a
 
 # -------
 # Aliases
@@ -37,5 +32,3 @@ alias jnote='jupyter notebook'
 function jslide() {
     jupyter nbconvert --to slides $1 --post serve
 }
-
-export HOMEBREW_NO_ANALYTICS=1
