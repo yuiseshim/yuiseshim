@@ -27,6 +27,8 @@ alias ip="curl icanhazip.com"           # ip:        Your public IP address
 alias ut="uptime"                       # ut:        Computer uptime
 alias numfiles="echo $(ls -1 | wc -l)"  # numfiles:  Count of non-hidden files in current dir
 alias edithosts="sudo nano /etc/hosts"  # edithosts: Edit /etc/hosts file
+alias h=history
+
 mcd () { mkdir -p "$1" && cd "$1"; }    # mcd:       Makes new dir and jumps inside
 # flushdns: Flush DNS (Yosemite)
 alias flushdns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;" 
