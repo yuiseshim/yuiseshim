@@ -7,6 +7,7 @@ brew cask install google-drive
 brew cask install xquartz
 brew cask install github
 brew cask install texshop
+brew cask install aquaskk
 brew cask cleanup
 
 brew install ghostscript
