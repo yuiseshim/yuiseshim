@@ -31,6 +31,7 @@ openpyxl
 pandas
 pandas-datareader
 patsy
+pdfminer.six
 Pillow
 pip-review
 pip-tools
