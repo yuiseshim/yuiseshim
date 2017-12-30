@@ -2,6 +2,7 @@ bs4
 chainer
 Cython
 GitPython
+gensim
 gluon
 google
 gym
@@ -23,8 +24,6 @@ matplotlib
 mecab-python3
 networkx
 nltk
-nose
-notebook
 numba
 numpy
 opencv-python
@@ -52,10 +51,8 @@ statsmodels
 sympy
 tables
 Tempita
-tenacity
 tensorflow
 tensorflow-tensorboard
-testpath
 Theano
 Wand
 wikipedia
