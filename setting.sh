@@ -16,6 +16,7 @@ brew install nkf
 brew install git svn wget
 brew install pyenv pyenv-virtualenv
 brew install portaudio
+brew install hdf5
 brew cleanup
 
 
