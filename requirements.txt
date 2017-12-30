@@ -8,12 +8,8 @@ gym
 h5py
 html5lib
 im2pdf
-incremental
-ipykernel
 ipython
 Janome
-jdcal
-joblib
 julia
 jupyter
 jupyterlab
