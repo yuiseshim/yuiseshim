@@ -19,6 +19,7 @@ brew install portaudio
 brew install hdf5
 brew install mecab mecab-jumandic mecab-ko-dic mecab-unidic-extended mecab-ipadic mecab-ko mecab-unidic
 brew install pandoc
+brew install graphviz
 brew cleanup
 
 
