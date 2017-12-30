@@ -8,6 +8,7 @@ alias cp="cp -iv"                       # Preferred "cp" implementation
 alias mv="mv -iv"                       # Preferred "mv" implementation
 alias mkdir="mkdir -pv"                 # Preferred "mkdir" implementation
 alias ll="ls -FGlAhp"                   # List all files in current directory in long list format
+alias la="ls -a"
 alias ldir="ls -al | grep ^d"           # List all directories in current directory in long list format
 alias cd..="cd ../"                     # Go back 1 directory level (for fast typers)
 alias ..="cd ../"                       # Go back 1 directory level
