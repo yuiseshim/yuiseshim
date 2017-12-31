@@ -11,6 +11,7 @@ brew cask install aquaskk
 brew cask install kindle
 brew cask cleanup
 
+brew install wget
 brew install ghostscript
 brew install nkf
 brew install git svn wget
