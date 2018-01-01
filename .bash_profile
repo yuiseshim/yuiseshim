@@ -5,7 +5,7 @@ if [ -f ~/.bashrc ] ; then
 . ~/.bashrc
 fi
 
-# Setting Japanese Font                                                                             
+# Setting Japanese Font
 export LANG=ja_JP.UTF-8
 export LESSCHARSET=utf-8
 
