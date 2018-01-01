@@ -9,6 +9,7 @@ brew cask install github
 brew cask install texshop
 brew cask install aquaskk
 brew cask install kindle
+brew cask install java
 brew cask cleanup
 
 brew install wget
