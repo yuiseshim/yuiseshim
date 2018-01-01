@@ -27,7 +27,8 @@ if [ -d "${PYENV_ROOT}" ]; then
     eval "$(pyenv virtualenv-init -)"
 fi
 
-
+# npm
+export PATH="/usr/local/share/npm/bin:$PATH"
 
 #-----#
 # X11 #
