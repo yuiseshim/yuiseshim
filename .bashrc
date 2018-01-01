@@ -30,7 +30,7 @@ mcd () { mkdir -p "$1" && cd "$1"; }    # mcd:       Makes new dir and jumps ins
 # flushdns: Flush DNS (Yosemite)
 alias flushdns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;" 
 alias jnote='jupyter notebook'
-#alias jnote='open $JUPYTER_URL"tree"'                                                              
+#alias jnote='open $JUPYTER_URL"tree"'
 function jslide() {
     jupyter nbconvert --to slides $1 --post serve
 }
