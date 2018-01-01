@@ -10,6 +10,10 @@ brew cask install texshop
 brew cask install aquaskk
 brew cask install kindle
 brew cask install java
+brew cask install lilypond
+
+brew tap caskroom/drivers
+brew cask install kensington-trackball-works
 brew cask cleanup
 
 brew install wget
