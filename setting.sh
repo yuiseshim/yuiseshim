@@ -11,6 +11,7 @@ brew cask install aquaskk
 brew cask install kindle
 brew cask install java
 brew cask install lilypond
+brew cask install google-backup-and-sync
 
 brew tap caskroom/drivers
 brew cask install kensington-trackball-works
