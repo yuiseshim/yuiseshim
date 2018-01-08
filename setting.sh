@@ -20,7 +20,8 @@ brew cask cleanup
 brew install wget
 brew install ghostscript
 brew install nkf
-brew install git svn wget
+# brew install git
+brew install svn
 brew install pyenv pyenv-virtualenv
 brew install portaudio
 brew install hdf5
