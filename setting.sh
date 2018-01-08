@@ -33,6 +33,9 @@ brew cleanup
 
 #xcode-select —install
 
+# AquaSKK
+cp /Library/Input\ Methods/AquaSKK.app/Contents/Resources/kana-rule.conf ./Library/
+
 defaults write com.apple.finder AppleShowAllFiles TRUE
 killall Finder
 
