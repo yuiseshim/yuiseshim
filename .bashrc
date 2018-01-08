@@ -25,7 +25,7 @@ alias ut="uptime"                       # ut:        Computer uptime
 alias numfiles="echo $(ls -1 | wc -l)"  # numfiles:  Count of non-hidden files in current dir
 alias edithosts="sudo nano /etc/hosts"  # edithosts: Edit /etc/hosts file
 alias h=history
-alias req_txt='pip freeze --local | grep -v '^\-e' | cut -d = -f 1'
+alias req2txt='pip freeze --local | grep -v '^\-e' | cut -d = -f 1'
 alias pip_all='pip list --outdated --format=legacy | awk '{print $1}' | xargs pip install -U'
 
 mcd () { mkdir -p "$1" && cd "$1"; }    # mcd:       Makes new dir and jumps inside
