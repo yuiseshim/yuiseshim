@@ -44,5 +44,7 @@ killall Finder
 
 jupyter notebook --generate-config
 
-
+# http://users.dimi.uniud.it/~nicola.vitacolonna/software/lilypond-texshop/
 wget http://users.dimi.uniud.it/~nicola.vitacolonna/files/LilyPondEngines-2.0.4.tar.gz
+tar -zxvf LilyPondEngines-2.0.4.tar.gz
+cp ~/LilyPondEngines-2.0.4/*.ly ~/Library/TeXShop/Engines
