@@ -43,3 +43,6 @@ killall Finder
 #killall Finder
 
 jupyter notebook --generate-config
+
+
+wget http://users.dimi.uniud.it/~nicola.vitacolonna/files/LilyPondEngines-2.0.4.tar.gz
