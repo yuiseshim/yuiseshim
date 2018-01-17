@@ -12,6 +12,7 @@ brew cask install java
 brew cask install lilypond
 brew cask install google-backup-and-sync
 brew cask install mactex
+brew cask install libreoffice
 
 brew tap caskroom/drivers
 brew cask install kensington-trackball-works
