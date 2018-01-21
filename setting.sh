@@ -13,6 +13,7 @@ brew cask install lilypond
 brew cask install google-backup-and-sync
 brew cask install mactex
 brew cask install libreoffice
+brew cask install the-unarchiver
 
 brew tap caskroom/drivers
 brew cask install kensington-trackball-works
@@ -30,6 +31,7 @@ brew install mecab mecab-jumandic mecab-ko-dic mecab-unidic-extended mecab-ipadi
 brew install pandoc
 brew install graphviz
 brew install node
+brew install p7zip
 brew cleanup
 
 
