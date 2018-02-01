@@ -14,7 +14,7 @@ Janome
 julia
 jupyter
 jupyterlab
-jupyter-emacskeys
+#jupyter-emacskeys
 jupyter_latex_envs
 Keras
 librosa
