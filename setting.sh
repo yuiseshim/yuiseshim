@@ -35,6 +35,12 @@ brew install p7zip
 brew cleanup
 
 
+# python
+pyenv install 3.6.4
+pyenv virtualenv 3.6.4 tf
+pyenv global tf
+
+
 #xcode-select —install
 
 # AquaSKK
