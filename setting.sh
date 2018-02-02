@@ -44,6 +44,7 @@ pyenv global tf
 #xcode-select —install
 
 # AquaSKK
+cd ~
 cp /Library/Input\ Methods/AquaSKK.app/Contents/Resources/kana-rule.conf ./Library/Application\ Support/AquaSKK/
 
 defaults write com.apple.finder AppleShowAllFiles TRUE
