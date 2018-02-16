@@ -59,3 +59,9 @@ jupyter notebook --generate-config
 wget http://users.dimi.uniud.it/~nicola.vitacolonna/files/LilyPondEngines-2.0.4.tar.gz
 tar -zxvf LilyPondEngines-2.0.4.tar.gz
 cp ~/LilyPondEngines-2.0.4/*.engine ~/Library/TeXShop/Engines/
+
+# Mecab
+cd ~/Downloads
+git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
+cd mecab-ipadic-neologd
+./bin/install-mecab-ipadic-neologd -n
