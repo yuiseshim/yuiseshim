@@ -32,6 +32,7 @@ brew install pandoc
 brew install graphviz
 brew install node
 brew install p7zip
+brew install xz # for mecab-ipadic-neologd
 brew cleanup
 
 
