@@ -1,6 +1,7 @@
 beautifulsoup4
 chainer
 Cython
+django
 GitPython
 gensim
 gluon
