@@ -16,6 +16,7 @@ Janome
 julia
 jupyter
 jupyterlab
+jupyterlab-latex
 #jupyter-emacskeys
 jupyter_latex_envs
 Keras
