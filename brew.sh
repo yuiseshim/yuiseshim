@@ -14,6 +14,7 @@ brew cask install google-backup-and-sync
 brew cask install mactex
 brew cask install libreoffice
 brew cask install the-unarchiver
+brew cask install karabiner-elements
 
 brew tap caskroom/drivers
 brew cask install kensington-trackball-works
