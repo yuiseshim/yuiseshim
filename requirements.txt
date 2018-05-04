@@ -49,7 +49,7 @@ pyOpenSSL
 PypeR
 pytest
 python-pptx
-pyzmq
+#pyzmq
 scikit-image
 scikit-learn
 scipy
