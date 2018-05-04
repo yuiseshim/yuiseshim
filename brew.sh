@@ -37,4 +37,6 @@ brew install p7zip
 brew install xz # for mecab-ipadic-neologd
 brew install imagemagick
 brew install tree
+brew install node zeromq
+
 brew cleanup
