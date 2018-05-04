@@ -1,3 +1,4 @@
+bash_kernel
 beautifulsoup4
 chainer
 Cython
