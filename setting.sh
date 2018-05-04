@@ -32,3 +32,6 @@ cd mecab-ipadic-neologd
 # apple app update
 # brew tap buo/cask-upgrade
 # brew cu
+
+# Python
+python -m bash_kernel.install
