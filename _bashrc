@@ -1,0 +1,42 @@
+export EDITOR=emacs
+export HOMEBREW_GITHUB_API_TOKEN=08b16c59d36ae5227ede942aaf6a403ff098698a
+export CAFFE_ROOT=~/caffe
+# export CAFFE_ROOT=~/NVIDIA/caffe
+# export DIGITS_ROOT=~/NVIDIA/digits
+# export PYTHONPATH=~/caffe/python
+export PYTHONPATH=$PYTHONPATH:/Users/yuiseshime/caffe/distribute/python
+#export JUPYTER_URL="http://localhost:8888/"
+alias e='open -a emacs'
+alias ls='ls -G'
+alias la='ls -a'
+alias end='sudo shutdown -h now'
+alias sufind='sudo find / -name'
+alias gex='/Applications/Emacs.app/Contents/MacOS/Emacs'
+
+alias pip_all='for req in $(cat requirements.txt); do pip install $req; done'
+alias PyenvVersions='pyenv versions'
+
+#export TF_BINARY_URL_PY2=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.1-py2-none-any.whl
+#export TF_BINARY_URL_PY3=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.1-py3-none-any.whl
+#alias install_TF_py2='pip install --upgrade $TF_BINARY_URL_PY2'
+#alias install_TF_py3='pip install --upgrade $TF_BINARY_URL_PY3'
+
+alias docker_root='docker run -it -p 5000:5000 kaixhin/digits /bin/bash'
+#alias docker_root='docker run -it -p 5000:5000 -v /Users/yuiseshime/:/home/ kaixhin/digits /bin/bash'
+
+#alias jslide='jupyter nbconvert --to slides ./TensorFlow_TeamA_Report.ipynb --post serve'
+
+function jslide() {
+    jupyter nbconvert --to slides $1 --post serve
+}
+
+alias jnote='jupyter notebook'
+#alias jnote='open $JUPYTER_URL"tree"'
+
+export HOMEBREW_NO_ANALYTICS=1
+
+# AquaSKK
+#/Library/Input Methods/AquaSKK.app/Contents/Resources/keymap.conf
+#~/Library/Application Support/AquaSKK/
+
+
