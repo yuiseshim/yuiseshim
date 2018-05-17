@@ -67,6 +67,7 @@ Tempita
 tensorflow
 tensorflow-tensorboard
 Theano
+tqdm
 Wand
 wikipedia
 wordcloud
