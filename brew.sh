@@ -3,6 +3,7 @@
 
 brew cask install emacs
 brew cask install google-chrome
+brew cask install chromedriver
 brew cask install xquartz
 brew cask install github
 brew cask install texshop
