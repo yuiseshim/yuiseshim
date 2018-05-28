@@ -32,8 +32,7 @@ mcd () { mkdir -p "$1" && cd "$1"; }    # mcd:       Makes new dir and jumps ins
 alias flushdns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;"
 alias brew_update="brew update && brew upgrade && brew doctor"
 # apple app update
-#brew tap buo/cask-upgrade && brew cu
-alias brew_cask_update="brew tap buo/cask-upgrade && brew cu"
+alias brew_cask_update="brew tap buo/cask-upgrade && brew cu && brew cask clear"
 
 alias jnote='jupyter notebook'
 #alias jnote='open $JUPYTER_URL"tree"'
