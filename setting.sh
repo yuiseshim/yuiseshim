@@ -10,7 +10,7 @@ pyenv global tf
 cd ~
 cp /Library/Input\ Methods/AquaSKK.app/Contents/Resources/kana-rule.conf ./Library/Application\ Support/AquaSKK/
 curl https://raw.githubusercontent.com/yuiseshim/yuiseshim/master/AquaSKK/kana-rule.conf > ./Library/Application\ Support/AquaSKK/kana-rule.conf
-curl https://raw.githubusercontent.com/yuiseshim/yuiseshim/master/AquaSKK/skk-jisyo.utf8 > ./Library/Application\ Support/AquaSKK/AquaSKK/skk-jisyo.utf8
+curl https://raw.githubusercontent.com/yuiseshim/yuiseshim/master/AquaSKK/skk-jisyo.utf8 > ./Library/Application\ Support/AquaSKK/skk-jisyo.utf8
 
 defaults write com.apple.finder AppleShowAllFiles TRUE
 killall Finder
