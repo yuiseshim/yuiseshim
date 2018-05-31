@@ -9,6 +9,7 @@ pyenv global tf
 # AquaSKK
 cd ~
 cp /Library/Input\ Methods/AquaSKK.app/Contents/Resources/kana-rule.conf ./Library/Application\ Support/AquaSKK/
+curl https://raw.githubusercontent.com/yuiseshim/yuiseshim/master/AquaSKK/kana-rule.conf > ./Library/Application\ Support/AquaSKK/kana-rule.conf
 
 defaults write com.apple.finder AppleShowAllFiles TRUE
 killall Finder
