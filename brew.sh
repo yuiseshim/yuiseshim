@@ -20,6 +20,9 @@ brew cask install karabiner-elements
 
 brew tap caskroom/drivers
 brew cask install kensington-trackball-works
+
+brew cask install gimp
+brew cask install firealpaca
 brew cask cleanup
 
 brew install wget
