@@ -17,6 +17,7 @@ brew cask install libreoffice
 brew cask install the-unarchiver
 brew cask install slack
 brew cask install karabiner-elements
+brew cask install chromedriver
 
 brew tap caskroom/drivers
 brew cask install kensington-trackball-works
