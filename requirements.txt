@@ -1,5 +1,6 @@
 bash_kernel
 beautifulsoup4
+boxsdk
 chainer
 Cython
 django
@@ -47,6 +48,7 @@ Pillow
 pip-review
 pip-tools
 plotly
+psd-tools2
 Pygments
 pyocr
 pyOpenSSL
