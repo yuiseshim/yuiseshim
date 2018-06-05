@@ -15,8 +15,9 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 export EDITOR=emacs
 
-#export HOMEBREW_NO_ANALYTICS=1
-#export HOMEBREW_CASK_OPTS=“–appdir=/Applications”
+if [ -f ~/.bash_mykey ] ; then
+    . ~/.bash_mykey
+fi
 
 ## Set path for pyenv
 export PATH="$PATH:$HOME/.pyenv/shims"
@@ -27,7 +28,4 @@ if [ -d "${PYENV_ROOT}" ]; then
     eval "$(pyenv virtualenv-init -)"
 fi
 
-export PYTHONPATH="$HOME/Google ドライブ/mysetting"
-
-# Automatically update
-#brew update && brew upgrade && brew doctor
+export PYTHONPATH="$HOME/Desktop"
