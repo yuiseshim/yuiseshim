@@ -29,7 +29,7 @@ if [ -d "${PYENV_ROOT}" ]; then
     eval "$(pyenv virtualenv-init -)"
 fi
 
-export PYTHONPATH="$HOME/Google ドライブ/mysetting"
+export PYTHONPATH="$HOME/Desktop"
 
 # Automatically update
 #brew update && brew upgrade && brew doctor
