@@ -15,6 +15,7 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 export EDITOR=emacs
 
+# API KEY
 if [ -f ~/.bash_mykey ] ; then
     . ~/.bash_mykey
 fi
