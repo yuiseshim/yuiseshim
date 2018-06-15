@@ -50,6 +50,7 @@ pip-review
 pip-tools
 plotly
 psd-tools2
+psutil
 Pygments
 pyocr
 pyOpenSSL
