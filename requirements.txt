@@ -43,6 +43,7 @@ pandas-datareader
 pandoc
 patsy
 pycocotools #Tools for working with the MSCOCO dataset
+py-cpuinfo
 pdfminer.six
 Pillow
 pip-review
