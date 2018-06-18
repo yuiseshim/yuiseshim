@@ -20,6 +20,7 @@ brew cask install karabiner-elements
 brew cask install chromedriver
 
 brew tap caskroom/drivers
+brew cask install bazel
 brew cask install kensington-trackball-works
 
 brew cask install gimp
