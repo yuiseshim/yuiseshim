@@ -67,6 +67,7 @@ selenium
 statsmodels
 sympy
 tables
+td-client
 Tempita
 tensorflow
 tensorflow-tensorboard
