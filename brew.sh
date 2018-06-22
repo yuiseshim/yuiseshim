@@ -20,7 +20,6 @@ brew cask install karabiner-elements
 brew cask install chromedriver
 
 brew tap caskroom/drivers
-brew cask install bazel
 brew cask install kensington-trackball-works
 
 brew cask install gimp
@@ -45,5 +44,6 @@ brew install imagemagick
 brew install tree
 brew install node zeromq
 brew install cmake
+brew install bazel
 
 brew cleanup
