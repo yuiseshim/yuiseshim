@@ -49,6 +49,7 @@ Pillow
 pip-review
 pip-tools
 plotly
+protobuf
 psd-tools2
 psutil
 Pygments
