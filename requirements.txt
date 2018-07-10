@@ -5,6 +5,7 @@ chainer
 Cython
 django
 dlib #A toolkit for making real world machine learning and data analysis applications
+flickrapi
 GitPython
 gensim
 #gluon
