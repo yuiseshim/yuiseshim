@@ -37,3 +37,7 @@ cd mecab-ipadic-neologd
 
 # Python
 python -m bash_kernel.install
+
+# 「すべてのアプリケーションを許可」の設定を復活させる
+#sudo spctl –master-disable #復活
+#sudo spctl –master-enable #戻す
