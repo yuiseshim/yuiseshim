@@ -38,6 +38,7 @@ nltk
 numba
 numpy
 opencv-python
+openfermion
 openpyxl
 pandas
 pandas-datareader
@@ -78,6 +79,7 @@ Tempita
 tensorflow
 tensorflow-tensorboard
 Theano
+torch
 tqdm
 Wand
 wikipedia
