@@ -37,6 +37,7 @@ brew install hdf5
 brew install mecab mecab-jumandic mecab-ko-dic mecab-unidic-extended mecab-ipadic mecab-ko mecab-unidic
 brew install pandoc
 brew install graphviz
+brew install libxml2
 brew install node
 brew install p7zip
 brew install xz # for mecab-ipadic-neologd
@@ -47,5 +48,6 @@ brew install cmake
 brew install protobuf
 brew install bazel
 brew install pyqt5
+brew install qt  # will install qt-5.x.x
 
 brew cleanup
