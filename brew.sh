@@ -46,5 +46,6 @@ brew install node zeromq
 brew install cmake
 brew install protobuf
 brew install bazel
+brew install pyqt5
 
 brew cleanup
