@@ -39,6 +39,7 @@ brew install pandoc
 brew install graphviz
 brew install libxml2
 brew install node
+brew install libquantum
 brew install p7zip
 brew install xz # for mecab-ipadic-neologd
 brew install imagemagick
