@@ -70,6 +70,7 @@ scikit-learn
 scipy
 Scrapy
 seaborn
+selectivesearch
 selenium
 statsmodels
 sympy
