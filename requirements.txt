@@ -60,6 +60,7 @@ pyocr
 pyOpenSSL
 PypeR
 pyquit
+PyQt5
 pytest
 python-pptx
 #pyzmq
