@@ -72,6 +72,7 @@ Scrapy
 seaborn
 selectivesearch
 selenium
+sip
 statsmodels
 sympy
 tables
