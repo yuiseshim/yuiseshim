@@ -1,0 +1,20 @@
+{
+  "load_extensions": {
+    "jupyter_emacskeys/init": false
+  },
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  },
+  "Notebook": {
+    "Header": true,
+    "Toolbar": true
+  }, 
+  "CodeCell": {
+    "cm_config": {
+      "indentUnit": 2
+    }
+  }
+}
+
