@@ -59,7 +59,7 @@ Pygments
 pyocr
 pyOpenSSL
 PypeR
-pyquit
+pyquil
 PyQt5
 pytest
 python-pptx
