@@ -83,6 +83,7 @@ tensorflow
 tensorflow-tensorboard
 Theano
 torch
+torchvision
 tqdm
 Wand
 wikipedia
