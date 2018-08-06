@@ -50,5 +50,6 @@ brew install protobuf
 brew install bazel
 brew install pyqt5
 brew install qt  # will install qt-5.x.x
+#brew install speedtest-cli
 
 brew cleanup
