@@ -17,3 +17,4 @@ sudo apt-get install google-chrome-stable
 
 sudo apt-get install xrdp lxde
 echo lxsession -s LXDE -e LXDE > ~/.xsession
+sudo update-alternatives --config x-session-manager
