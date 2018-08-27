@@ -21,3 +21,4 @@ sudo update-alternatives --config x-session-manager
 
 # English description
 LANG=C xdg-user-dirs-gtk-update
+#xdg-user-dirs-gtk-update
