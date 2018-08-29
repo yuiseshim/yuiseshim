@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<name>org.freedesktop.IBus.SKK</name>
+	<description>SKK Component</description>
+	<exec>/usr/lib/ibus/ibus-engine-skk --ibus</exec>
+	<version>1.4.2</version>
+	<author>Daiki Ueno &lt;ueno@unixuser.org&gt;</author>
+	<license>GPL</license>
+	<homepage>http://code.google.com/p/ibus</homepage>
+	<textdomain>ibus-skk</textdomain>
+
+	
+	<engines>
+		<engine>
+			<name>skk</name>
+			<language>us</language>
+			<license>GPL</license>
+			<author>Daiki Ueno &lt;ueno@unixuser.org&gt;</author>
+			<icon>/usr/share/ibus-skk/icons/ibus-skk.svg</icon>
+			<layout>us</layout>
+			<longname>SKK</longname>
+			<description>SKK Input Method</description>
+			<rank>70</rank>
+			<symbol>&#x3042;</symbol>
+		</engine>
+	</engines>
+</component>
