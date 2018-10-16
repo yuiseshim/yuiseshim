@@ -82,7 +82,7 @@ tables
 td-client
 Tempita
 tensorflow
-tensorflow-tensorboard
+#tensorflow-tensorboard
 Theano
 torch
 torchvision
