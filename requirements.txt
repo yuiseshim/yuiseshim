@@ -59,6 +59,7 @@ projectq
 psd-tools2
 psutil
 Pygments
+pymc3
 pyocr
 pyOpenSSL
 PypeR
