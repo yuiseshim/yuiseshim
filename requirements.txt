@@ -53,6 +53,7 @@ Pillow
 pip-review
 pip-tools
 plotly
+PuLP
 protobuf
 projectq
 psd-tools2
@@ -80,8 +81,12 @@ statsmodels
 sympy
 tables
 td-client
+torch
+torchvision
 Tempita
 tensorflow
+tensorflow-hub
+tensorflow-probability
 #tensorflow-tensorboard
 Theano
 torch
