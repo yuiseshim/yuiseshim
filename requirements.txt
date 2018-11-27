@@ -3,6 +3,7 @@ beautifulsoup4
 boxsdk
 chainer
 cirq
+cvxpy
 Cython
 django
 dlib #A toolkit for making real world machine learning and data analysis applications
