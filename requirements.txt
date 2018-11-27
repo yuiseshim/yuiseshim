@@ -3,6 +3,7 @@ beautifulsoup4
 boxsdk
 chainer
 cirq
+cvxopt
 cvxpy
 Cython
 django
