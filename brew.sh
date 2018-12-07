@@ -50,6 +50,7 @@ brew install cmake
 brew install protobuf
 brew install bazel
 brew install pyqt5
+brew install swig
 brew install qt  # will install qt-5.x.x
 #brew install speedtest-cli
 
