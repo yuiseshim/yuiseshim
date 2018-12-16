@@ -27,6 +27,8 @@ brew cask install gimp
 brew cask install firealpaca
 brew cask install onyx
 brew cask install macdown
+brew cask install microsoft-office
+brew cask install onedrive
 brew cask cleanup
 
 brew install wget
