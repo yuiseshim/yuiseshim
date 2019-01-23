@@ -8,6 +8,7 @@ apt-get install texlive
 apt-get install texlive-lang-cjk
 apt-get install xdvik-ja
 sudo apt-get install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
+sudo apt-get install wkhtmltopdf #html2image
 
 # Install pyenv-virtual
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
