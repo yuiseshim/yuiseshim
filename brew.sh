@@ -29,6 +29,7 @@ brew cask install onyx
 brew cask install macdown
 brew cask install microsoft-office
 brew cask install onedrive
+brew cask install wkhtmltopdf
 brew cask cleanup
 
 brew install wget
