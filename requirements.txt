@@ -19,6 +19,7 @@ holoviews
 html5lib
 im2pdf
 imgaug #Image augmentation library for machine learning
+imgkit
 imutils #A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.
 ipython
 Janome
@@ -50,6 +51,7 @@ pandoc
 patsy
 pycocotools #Tools for working with the MSCOCO dataset
 py-cpuinfo
+pdfcrowd3
 pdfminer.six
 Pillow
 pip-review
