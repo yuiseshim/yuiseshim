@@ -41,3 +41,6 @@ python -m bash_kernel.install
 # 「すべてのアプリケーションを許可」の設定を復活させる
 #sudo spctl –master-disable #「すべてのアプリケーションを許可」
 #sudo spctl –master-enable #戻す
+
+
+npm install -g electron@1.8.4 orca # plotly
