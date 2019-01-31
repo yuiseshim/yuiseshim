@@ -14,7 +14,7 @@ sudo apt-get update
 sudo apt-get install google-chrome-stable
 
 sudo apt-get install -y nodejs npm # plotly
-
+npm install -g electron@1.8.4 orca
 
 sudo apt-get install xrdp lxde
 echo lxsession -s LXDE -e LXDE > ~/.xsession
