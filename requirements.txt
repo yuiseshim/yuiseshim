@@ -1,5 +1,6 @@
 bash_kernel
 beautifulsoup4
+bokeh
 boxsdk
 chainer
 cirq
