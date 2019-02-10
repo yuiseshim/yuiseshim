@@ -61,6 +61,7 @@ plotly
 PuLP
 protobuf
 projectq
+pscript
 psd-tools2
 psutil
 Pygments
