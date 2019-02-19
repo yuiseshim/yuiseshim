@@ -33,3 +33,12 @@ curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
 
 apt-get update && apt-get install -y bazel
 apt-get upgrade bazel
+
+# Google Drive
+sudo add-apt-repository ppa:alessandro-strada/ppa
+#sudo add-apt-repository ppa:alessandro-strada/google-drive-ocamlfuse-beta
+sudo apt-get update
+sudo apt-get install google-drive-ocamlfuse
+google-drive-ocamlfuse
+mkdir ~/GoogleDrive
+google-drive-ocamlfuse ~/GoogleDrive
