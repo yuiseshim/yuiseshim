@@ -38,6 +38,27 @@ sudo apt-get upgrade
 sudo apt-get dist-upgrade
 
 
+
+sudo apt update
+sudo apt upgrade
+
+##############
+# cuda
+sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
+
+wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.2.88-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu1604_9.2.88-1_amd64.deb
+sudo apt update
+
+sudo apt install cuda-9-0 cuda-drivers
+sudo reboot
+
+#cudnn
+wget http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/nvidia-machine-learning-repo-ubuntu1604_1.0.0-1_amd64.deb
+sudo dpkg -i nvidia-machine-learning-repo-ubuntu1604_1.0.0-1_amd64.deb
+sudo apt-get install libcudnn7
+##############
+
 # Check GPU
 lspci | grep -i nvidia
 # cuda
