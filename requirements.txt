@@ -4,6 +4,7 @@ bokeh
 boxsdk
 chainer
 cirq
+colorlover
 cvxopt
 cvxpy
 Cython
