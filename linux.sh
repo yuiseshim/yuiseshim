@@ -8,6 +8,22 @@ echo 'PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin":"$PA
 #sudo apt-get -y install gnome-core
 #sudo apt-get -y install gnome-panel
 
+# Install pyenv-virtual
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
+git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+echo -e "\n# `date '+%Y/%m/%d'` H.Seshime" >> ~/.bashrc
+echo "## Setting pyenv, pyenv-virtualenv ##" >> ~/.bashrc
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc 
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc 
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+source ~/.bashrcgit clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
+
+# python virtual env.
+pyenv install 3.6.7
+pyenv virtualenv 3.6.7 tfgpu
+pyenv global tfgpu
+
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo apt-get update
@@ -33,6 +49,14 @@ curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
 
 apt-get update && apt-get install -y bazel
 apt-get upgrade bazel
+
+
+# Mecab
+sudo apt-get -y install mecab libmecab-dev mecab-ipadic-utf8 mecab-ipadic
+cd ~/Downloads
+git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
+cd mecab-ipadic-neologd
+./bin/install-mecab-ipadic-neologd -n
 
 # Google Drive
 sudo add-apt-repository ppa:alessandro-strada/ppa
