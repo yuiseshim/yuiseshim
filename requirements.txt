@@ -67,6 +67,7 @@ pscript
 psd-tools2
 psutil
 Pygments
+pyknp
 pymc3
 pyocr
 pyOpenSSL
