@@ -53,6 +53,7 @@ apt-get upgrade bazel
 
 # Mecab
 sudo apt-get -y install mecab libmecab-dev mecab-ipadic-utf8 mecab-ipadic
+sudo apt-get -y install juman juman-dic libjuman4 mecab-jumandic
 cd ~/Downloads
 git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
 cd mecab-ipadic-neologd
