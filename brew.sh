@@ -30,6 +30,7 @@ brew cask install macdown
 brew cask install microsoft-office
 brew cask install onedrive
 brew cask install wkhtmltopdf
+brew cask install flash-player
 brew cask cleanup
 
 brew install wget
