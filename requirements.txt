@@ -78,7 +78,7 @@ pytestf
 python-pptx
 #pyzmq
 qiskit
-qutip
+#qutip
 scikit-image
 scikit-learn
 scipy
