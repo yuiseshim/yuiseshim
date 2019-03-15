@@ -10,6 +10,7 @@ echo 'PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin":"$PA
 
 ########
 sudo apt-get install -y ddskk dbskkd-cdb fcitx-skk ibus-skk mlterm-im-skk skksearch skktools skkdic-cdb skkdic-extra uim-skk yaskkserv
+sudo apt-get install -y swig
 
 # Install pyenv-virtual
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
