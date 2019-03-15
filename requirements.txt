@@ -6,10 +6,10 @@ chainer
 cirq
 colorlover
 cvxopt
-cvxpy
+#cvxpy
 Cython
 django
-dlib #A toolkit for making real world machine learning and data analysis applications
+#dlib #A toolkit for making real world machine learning and data analysis applications
 flickrapi
 GitPython
 gensim
