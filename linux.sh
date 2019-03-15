@@ -8,6 +8,9 @@ echo 'PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin":"$PA
 #sudo apt-get -y install gnome-core
 #sudo apt-get -y install gnome-panel
 
+########
+sudo apt-get install -y ddskk dbskkd-cdb fcitx-skk ibus-skk mlterm-im-skk skksearch skktools skkdic-cdb skkdic-extra uim-skk yaskkserv
+
 # Install pyenv-virtual
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
 git clone https://github.com/yyuu/pyenv.git ~/.pyenv
@@ -47,8 +50,8 @@ apt-get install -y openjdk-8-jdk
 echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
 curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
 
-apt-get update && apt-get install -y bazel
-apt-get upgrade bazel
+sudo apt-get update && sudo apt-get install -y bazel
+sudo apt-get upgrade bazel
 
 
 # Mecab
