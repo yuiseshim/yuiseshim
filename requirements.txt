@@ -52,7 +52,7 @@ pandas
 pandas-datareader
 pandoc
 patsy
-pycocotools #Tools for working with the MSCOCO dataset
+#pycocotools #Tools for working with the MSCOCO dataset
 py-cpuinfo
 pdfcrowd3
 pdfminer.six
@@ -74,7 +74,7 @@ pyOpenSSL
 PypeR
 pyquil
 PyQt5
-pytest
+pytestf
 python-pptx
 #pyzmq
 qiskit
