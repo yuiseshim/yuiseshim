@@ -1,5 +1,6 @@
 # http://linuxbrew.sh/
-sudo apt-get -y install build-essential curl git python-setuptools ruby file
+sudo apt-get -y install build-essential curl git ruby file
+sudo apt-get -y install python-setuptools
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
 # 
@@ -80,6 +81,13 @@ sudo apt upgrade
 sudo apt dist-upgrade
 sudo reboot
 sudo do-release-upgrade
+
+lsmod | grep -i nouveau
+sudo vi /etc/modprobe.d/blacklist-nouveau.conf
+blacklist nouveau
+options nouveau modeset=0
+sudo update-initramfs -u
+sudo reboot
 
 sudo ubuntu-drivers autoinstall
 
