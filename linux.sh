@@ -29,7 +29,7 @@ echo -e "\n# `date '+%Y/%m/%d'` H.Seshime" >> ~/.profile
 echo "## Setting pyenv, pyenv-virtualenv ##" >> ~/.profile
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.profile
-echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+echo 'eval "$(pyenv init -)"' >> ~/.profile
 source ~/.profile
 
 git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
