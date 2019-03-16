@@ -98,7 +98,7 @@ torch
 torchtext
 torchvision
 Tempita
-tensorflow
+#tensorflow
 tensorflow-hub
 tensorflow-probability
 #tensorflow-tensorboard
