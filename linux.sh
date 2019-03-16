@@ -89,6 +89,7 @@ options nouveau modeset=0
 sudo update-initramfs -u
 sudo reboot
 
+ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
 
 # tensorflow-gpu
