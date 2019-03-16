@@ -18,6 +18,8 @@ sudo apt-get install -y yaskkserv
 sudo apt-get install -y skksearch 
 sudo apt-get install -y dbskkd-cdb
 
+sudo apt-get install -y openssh-server
+
 sudo apt-get install -y swig
 
 # Install pyenv-virtual
@@ -28,9 +30,11 @@ echo "## Setting pyenv, pyenv-virtualenv ##" >> ~/.profile
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.profile
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.profile
-source ~/.bashrc
+source ~/.profile
+
 git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.profile
+source ~/.profile
 
 # python virtual env.
 pyenv install 3.6.7
