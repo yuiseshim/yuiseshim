@@ -106,6 +106,8 @@ sudo apt install ./nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb
 sudo apt-get update
 
 # Install NVIDIA driver
+sudo apt-get install -y xserver-xorg-video-nvidia-410
+sudo apt-get install -y libnvidia-cfg1-410
 sudo apt-get install --no-install-recommends nvidia-driver-410
 # Reboot. Check that GPUs are visible using the command: nvidia-smi
 
