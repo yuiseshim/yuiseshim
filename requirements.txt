@@ -74,7 +74,7 @@ pyOpenSSL
 PypeR
 pyquil
 PyQt5
-pytestf
+pytest
 python-pptx
 #pyzmq
 qiskit
