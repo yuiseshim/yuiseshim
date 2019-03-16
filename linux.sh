@@ -10,7 +10,14 @@ echo 'PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin":"$PA
 #sudo apt-get -y install gnome-panel
 
 ########
-sudo apt-get install -y ddskk dbskkd-cdb fcitx-skk ibus-skk mlterm-im-skk skksearch skktools skkdic-cdb skkdic-extra uim-skk yaskkserv
+sudo apt-get install -y ddskk
+sudo apt-get install -y yaskkserv skksearch dbskkd-cdb
+sudo apt-get install -y dbskkd-cdb fcitx-skk ibus-skk 
+sudo apt-get install -y mlterm-im-skk skksearch skktools skkdic-cdb skkdic-extra uim-skk
+sudo apt-get install -y yaskkserv 
+sudo apt-get install -y skksearch 
+sudo apt-get install -y dbskkd-cdb
+
 sudo apt-get install -y swig
 
 # Install pyenv-virtual
