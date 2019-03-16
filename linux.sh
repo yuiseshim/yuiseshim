@@ -75,6 +75,11 @@ google-drive-ocamlfuse ~/GoogleDrive
 
 
 
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo reboot
+sudo do-release-upgrade
 
 # tensorflow-gpu
 echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
