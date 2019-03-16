@@ -14,14 +14,14 @@ sudo apt-get install -y ddskk dbskkd-cdb fcitx-skk ibus-skk mlterm-im-skk skksea
 sudo apt-get install -y swig
 
 # Install pyenv-virtual
-sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
+sudo apt-get install -y make gcc libreadline-dev libsqlite3-dev build-essential libssl-dev zlib1g-dev libbz2-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
 git clone https://github.com/yyuu/pyenv.git ~/.pyenv
-echo -e "\n# `date '+%Y/%m/%d'` H.Seshime" >> ~/.bashrc
-echo "## Setting pyenv, pyenv-virtualenv ##" >> ~/.bashrc
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc 
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc 
+echo -e "\n# `date '+%Y/%m/%d'` H.Seshime" >> ~/.profile
+echo "## Setting pyenv, pyenv-virtualenv ##" >> ~/.profile
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.profile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.profile
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.profile
 source ~/.bashrc
 git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
 
