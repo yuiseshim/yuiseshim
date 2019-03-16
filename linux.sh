@@ -81,6 +81,8 @@ sudo apt dist-upgrade
 sudo reboot
 sudo do-release-upgrade
 
+sudo ubuntu-drivers autoinstall
+
 # tensorflow-gpu
 echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
 echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64' >> ~/.bashrc
