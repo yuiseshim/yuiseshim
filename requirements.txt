@@ -28,6 +28,7 @@ ipython
 Janome
 julia
 jupyter
+jupyter_contrib_nbextensions
 jupyterlab
 jupyterlab-latex
 #jupyter-emacskeys
