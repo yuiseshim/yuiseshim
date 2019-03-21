@@ -31,6 +31,7 @@ jupyter
 jupyter_contrib_nbextensions
 jupyterlab
 jupyterlab-latex
+jupyterlab-git
 #jupyter-emacskeys
 jupyter_latex_envs
 Keras
