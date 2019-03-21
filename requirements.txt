@@ -52,6 +52,7 @@ openfermion
 openpyxl
 pandas
 pandas-datareader
+pandas-td
 pandoc
 patsy
 #pycocotools #Tools for working with the MSCOCO dataset
