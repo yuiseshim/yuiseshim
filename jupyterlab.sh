@@ -4,3 +4,4 @@ jupyter labextension install @jupyterlab/latex
 jupyter labextension install @jupyterlab/git
 jupyter labextension install @jupyterlab/toc
 jupyter labextension install jupyterlab_vim
+jupyter labextension install @lckr/jupyterlab_variableinspector
