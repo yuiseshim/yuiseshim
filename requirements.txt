@@ -34,7 +34,7 @@ jupyterlab-latex
 jupyterlab-git
 #jupyter-emacskeys
 jupyter_latex_envs
-Keras
+#Keras
 librosa
 llvmlite
 logutils
