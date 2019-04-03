@@ -1,4 +1,5 @@
 bash_kernel
+beampy
 beautifulsoup4
 bokeh
 boxsdk
@@ -72,6 +73,7 @@ psutil
 Pygments
 pyknp
 pymc3
+pylatex
 pyocr
 pyOpenSSL
 PypeR
