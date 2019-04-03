@@ -1,5 +1,5 @@
 bash_kernel
-beampy
+beampy-slideshow
 beautifulsoup4
 bokeh
 boxsdk
