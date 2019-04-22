@@ -1,0 +1,16 @@
+{
+  "Editor": {
+    "file_extension_modes": {
+      ".md": "Markdown"
+    },
+    "codemirror_options": {
+      "vimMode": false,
+      "keyMap": "emacs"
+    }, 
+    "codemirror_options": {
+      "indentUnit": 2,
+      "vimMode": false, 
+      "keyMap": "default"
+    }
+  }
+}

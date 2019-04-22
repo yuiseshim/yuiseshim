@@ -1,0 +1,27 @@
+# Homebrew
+export HOMEBREW_GITHUB_API_TOKEN=08b16c59d36ae5227ede942aaf6a403ff098698a
+export HOMEBREW_NO_ANALYTICS=1
+#export HOMEBREW_CASK_OPTS=“–appdir=/Applications”
+
+# Plotly
+export PLOTLY_KEY=5oLN6miKKBz9VWpJSmfc
+export USERNAME=yuiseshim
+
+# TreasureData API KEY
+export TD_API_KEY="9213/946e59ccd6c660d86a975604928fad5480c7beba"
+
+# Box ACCOUNT
+export MAILADDRESS="h_seshime@septeni.co.jp"
+export PASSWORD="Photon#2997"
+
+# Box Developer
+export CLIENT_ID="hvcjcs6byeew3zdzhtlx8g50ezeltpje"
+export CLIENT_SECRET="2tF8LKimu68Kqv3HIw1MeYwMj8PPDpFR"
+
+# Flickr
+export FLICKR_KEY="e7831bd9a2d185f90123024ab7da6330"
+export FLICKR_SECRET="d4be46f0a31a15f4"
+
+# ImageNet
+export IMAGENET_USERNAME=yuiseshim
+export IMAGENET_ACCESS_KEY=primetriplet357

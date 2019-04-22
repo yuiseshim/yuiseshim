@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>active</key>
-		<false/>
+		<true/>
 		<key>location</key>
 		<string>SKK-JISYO.station</string>
 		<key>type</key>
@@ -60,7 +60,7 @@
 	</dict>
 	<dict>
 		<key>active</key>
-		<false/>
+		<true/>
 		<key>location</key>
 		<string>SKK-JISYO.law</string>
 		<key>type</key>
@@ -68,7 +68,7 @@
 	</dict>
 	<dict>
 		<key>active</key>
-		<false/>
+		<true/>
 		<key>location</key>
 		<string>SKK-JISYO.okinawa</string>
 		<key>type</key>
@@ -161,6 +161,14 @@
 		<string>SKK-JISYO.mazegaki</string>
 		<key>type</key>
 		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>active</key>
+		<true/>
+		<key>location</key>
+		<string>~/Library/Application Support/AquaSKK/SKK-JISYO.emoji.utf8</string>
+		<key>type</key>
+		<integer>5</integer>
 	</dict>
 </array>
 </plist>

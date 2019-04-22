@@ -1,0 +1,18 @@
+{
+  "notebook:clear-all-outputs": {
+    "command": "notebook:clear-all-cell-outputs",
+    "keys": [
+      "Q"
+    ],
+    "selector": ".jp-Notebook:focus"
+  }, 
+      
+  "notebook:restart-clear-output": {
+    "command": "notebook:restart-clear-output",
+    "keys": [
+      "Q", 
+      "Q"
+    ],
+    "selector": ".jp-Notebook:focus"
+  }
+}

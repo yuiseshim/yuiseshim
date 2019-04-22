@@ -30,10 +30,10 @@ alias globalip='curl inet-ip.info'
 mcd () { mkdir -p "$1" && cd "$1"; }    # mcd:       Makes new dir and jumps inside
 # flushdns: Flush DNS (Yosemite)
 alias flushdns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;"
-
-# Package Update
-alias brew_cask_update="brew tap buo/cask-upgrade && brew cu" # apple app
 alias brew_update="brew update && brew upgrade && brew doctor"
+# apple app update
+#brew tap buo/cask-upgrade && brew cu
+alias brew_cask_update="brew tap buo/cask-upgrade && brew cu"
 
 alias jnote='jupyter notebook'
 #alias jnote='open $JUPYTER_URL"tree"'

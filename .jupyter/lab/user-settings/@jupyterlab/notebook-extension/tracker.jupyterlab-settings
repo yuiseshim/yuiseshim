@@ -1,0 +1,54 @@
+{
+    // Notebook
+    // @jupyterlab/notebook-extension:tracker
+    // Notebook settings.
+    // **************************************
+
+    // Code Cell Configuration
+    // The configuration for all code cells.
+    "codeCellConfig": {
+      "autoClosingBrackets": true,
+      "fontFamily": null,
+      "fontSize": null,
+      "lineHeight": null,
+      "lineNumbers": true,
+      "lineWrap": "off",
+      "matchBrackets": true,
+      "readOnly": false,
+      "insertSpaces": true,
+      "tabSize": 2,
+      "wordWrapColumn": 80
+    },
+
+    // Markdown Cell Configuration
+    // The configuration for all markdown cells.
+    "markdownCellConfig": {
+      "autoClosingBrackets": false,
+      "fontFamily": null,
+      "fontSize": null,
+      "lineHeight": null,
+      "lineNumbers": false,
+      "lineWrap": "on",
+      "matchBrackets": false,
+      "readOnly": false,
+      "insertSpaces": true,
+      "tabSize": 2,
+      "wordWrapColumn": 80
+    },
+
+    // Raw Cell Configuration
+    // The configuration for all raw cells.
+    "rawCellConfig": {
+      "autoClosingBrackets": false,
+      "fontFamily": null,
+      "fontSize": null,
+      "lineHeight": null,
+      "lineNumbers": false,
+      "lineWrap": "on",
+      "matchBrackets": false,
+      "readOnly": false,
+      "insertSpaces": true,
+      "tabSize": 2,
+      "wordWrapColumn": 80
+    }
+}

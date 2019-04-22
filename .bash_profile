@@ -16,8 +16,8 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 export EDITOR=emacs
 
 # API KEY
-if [ -f ~/.bash_mykey ] ; then
-    . ~/.bash_mykey
+if [ -f $HOME/Desktop/.bash_mykey ] ; then
+    . $HOME/Desktop/.bash_mykey
 fi
 
 ## Set path for pyenv
@@ -29,4 +29,7 @@ if [ -d "${PYENV_ROOT}" ]; then
     eval "$(pyenv virtualenv-init -)"
 fi
 
-export PYTHONPATH="$HOME/Desktop"
+export PYTHONPATH=$PYTHONPATH:"$HOME/Desktop"
+#export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+
+#PS1=`echo '$PYENV_VERSION'`"|\u@\h \W>$"

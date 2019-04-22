@@ -1,0 +1,10 @@
+{
+    // Google Drive
+    // @jupyterlab/google-drive:drive
+    // Settings for the Google Drive plugin.
+    // *************************************
+
+    // Client ID
+    // [missing schema description]
+    "clientId": "686577436664-bro2noh5qr2tejlu1gfig56l9bb4atep.apps.googleusercontent.com"
+}
