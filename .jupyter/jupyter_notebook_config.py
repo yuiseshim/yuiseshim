@@ -667,3 +667,5 @@ c.NotebookApp.open_browser = False
 #  
 #  By default, all installed kernels are allowed.
 #c.KernelSpecManager.whitelist = set()
+
+c.LatexConfig.latex_command = 'pdflatex'
