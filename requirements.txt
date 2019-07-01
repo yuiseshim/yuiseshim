@@ -26,6 +26,7 @@ imgkit
 importlib2
 imutils #A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.
 ipython
+ImageHash
 Janome
 julia
 jupyter
@@ -51,6 +52,7 @@ numpy
 opencv-python
 openfermion
 openpyxl
+ortools
 pandas
 pandas-datareader
 pandas-td
@@ -64,6 +66,7 @@ Pillow
 pip-review
 pip-tools
 plotly
+progressbar2
 PyDrive 
 PuLP
 protobuf
@@ -111,6 +114,7 @@ tensorflow-hub
 tensorflow-probability
 #tensorflow-tensorboard
 Theano
+timeout_decorator
 torch
 torchvision
 tqdm

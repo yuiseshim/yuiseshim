@@ -7,3 +7,5 @@ jupyter labextension install jupyterlab_vim
 jupyter labextension install @lckr/jupyterlab_variableinspector
 jupyter labextension install jupyterlab_tensorboard
 jupyter labextension install dcos-jupyterlab-tensorboard-extension
+jupyter labextension install jupyterlab-spreadsheet
+jupyter labextension install @jupyterlab/google-drive
