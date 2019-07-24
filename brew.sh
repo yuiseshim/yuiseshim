@@ -19,6 +19,8 @@ brew cask install slack
 brew cask install karabiner-elements
 brew cask install chromedriver
 brew cask install tunnelblick
+brew cask install gimp
+brew cask install firealpaca
 
 brew tap caskroom/drivers
 brew cask install kensington-trackball-works
