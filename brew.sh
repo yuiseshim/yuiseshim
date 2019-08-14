@@ -12,6 +12,7 @@ brew cask install kindle
 brew cask install java
 brew cask install lilypond
 brew cask install google-backup-and-sync
+brew cask install firefox --language=ja
 brew cask install mactex
 brew cask install libreoffice
 brew cask install the-unarchiver
