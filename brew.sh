@@ -35,6 +35,7 @@ brew cask install onedrive
 brew cask install wkhtmltopdf
 brew cask install flash-player
 brew cask install box-drive 
+brew cask install evernote
 brew cask cleanup
 
 brew install wget
