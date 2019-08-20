@@ -43,7 +43,7 @@ brew install ghostscript
 brew install nkf
 # brew install git
 brew install svn
-brew install pyenv pyenv-virtualenv
+brew install pyenv pyenv-virtualenv pyenv-virtualenvwrapper
 brew install portaudio
 brew install hdf5
 brew install mecab mecab-jumandic mecab-ko-dic mecab-unidic-extended mecab-ipadic mecab-ko mecab-unidic
