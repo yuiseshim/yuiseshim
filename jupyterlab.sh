@@ -1,3 +1,8 @@
+brew install nodebrew
+echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zshrc
+nodebrew setup
+nodebrew install-binary stable
+
 jupyter labextension install @mflevine/jupyterlab_html
 jupyter labextension install @jupyterlab/plotly-extension
 jupyter labextension install @jupyterlab/latex
