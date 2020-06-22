@@ -65,5 +65,6 @@ brew install pyqt5
 brew install swig
 brew install qt  # will install qt-5.x.x
 #brew install speedtest-cli
+brew install ffmpeg 
 
 brew cleanup
