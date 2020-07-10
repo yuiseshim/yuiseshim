@@ -18,7 +18,6 @@ brew cask install libreoffice
 brew cask install the-unarchiver
 brew cask install slack
 brew cask install karabiner-elements
-brew cask install chromedriver
 brew cask install google-cloud-sdk
 brew cask install tunnelblick
 brew cask install gimp
