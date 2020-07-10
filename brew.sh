@@ -38,6 +38,7 @@ brew cask install box-drive
 brew cask install evernote
 brew cask cleanup
 
+brew install zsh-completions zsh-autosuggestions zsh-syntax-highlighting
 brew install wget
 brew install ghostscript
 brew install nkf
