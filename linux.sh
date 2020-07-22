@@ -1,3 +1,6 @@
+# /dev/sda1 HDD
+sudo echo 'UUID=49e4da6f-5604-414a-a9c1-32ddebd59046 /media          ext4    errors=remount-ro 0       1' >> /etc/fstab
+
 # http://linuxbrew.sh/
 sudo apt-get -y install build-essential curl git ruby file
 sudo apt-get -y install python-setuptools
