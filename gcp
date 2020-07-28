@@ -16,3 +16,6 @@ sudo apt update
 
 sudo apt install -y cuda cuda-drivers
 sudo reboot
+
+
+sudo apt install -y libsqlite3-dev libreadline6-dev libbz2-dev libssl-dev libsqlite3-dev libncursesw5-dev libffi-dev libdb-dev libexpat1-dev zlib1g-dev liblzma-dev libgdbm-dev libmpdec-dev
