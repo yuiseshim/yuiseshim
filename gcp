@@ -20,6 +20,7 @@ sudo reboot
 
 sudo apt install -y libsqlite3-dev libreadline6-dev libbz2-dev libssl-dev libsqlite3-dev libncursesw5-dev libffi-dev libdb-dev libexpat1-dev zlib1g-dev liblzma-dev libgdbm-dev libmpdec-dev sqlite3 
 
+sudo apt-get install -y mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
 git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
 cd mecab-ipadic-neologd
 ./bin/install-mecab-ipadic-neologd -n
