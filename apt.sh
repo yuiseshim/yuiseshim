@@ -11,4 +11,4 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.expandr
 
 sudo apt-get install apt-transport-https
 sudo apt-get update
-sudo apt-get install expandrive
+sudo apt-get install -y expandrive
