@@ -3,6 +3,7 @@ sudo apt-get -y upgrade
 sudo apt-get -y emacs
 sudo apt-get install -y openssh-server
 sudo apt-get install -y swig
+sudo apt-get install -y wkhtmltopdf #html2image
 
 # ExpanDrive
 exfs --help 
@@ -15,11 +16,11 @@ sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install -y expandrive
 
-apt-get install tetex-*
-apt-get install texlive
-apt-get install texlive-lang-cjk
-apt-get install xdvik-ja
-sudo apt-get install wkhtmltopdf #html2image
+# tetex
+apt-get install -y tetex-*
+apt-get install -y texlive
+apt-get install -y texlive-lang-cjk
+apt-get install -y xdvik-ja
 
 # Install pyenv-virtual
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
