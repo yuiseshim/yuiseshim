@@ -7,9 +7,9 @@ echo "## Setting pyenv, pyenv-virtualenv ##" >> ~/.profile
 echo 'export PATH="$PATH:$HOME/.pyenv/shims"' >> ~/.profile
 echo 'export PYENV_ROOT="${HOME}/.pyenv"' >> ~/.profile
 echo 'if [ -d "${PYENV_ROOT}" ]; then' >> ~/.profile
-echo '\t export PATH=${PYENV_ROOT}/bin:$PATH'
-echo '\t eval "$(pyenv init -)"' >> ~/.profile
-echo '\t eval "$(pyenv virtualenv-init -)"' >> ~/.profile
+echo '  export PATH=${PYENV_ROOT}/bin:$PATH'
+echo '  eval "$(pyenv init -)"' >> ~/.profile
+echo '  eval "$(pyenv virtualenv-init -)"' >> ~/.profile
 echo 'fi\n'
 echo 'export PYTHONPATH="$HOME/Desktop"' >> ~/.profile
 source ~/.bashrc
