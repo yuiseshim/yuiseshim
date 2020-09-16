@@ -1,3 +1,7 @@
+sudo apt-get update
+sudo apt-get -y upgrade
+sudo apt-get -y emacs
+
 #https://www.expandrive.com/expandrive-for-linux/
 #sudo apt install ./ExpanDrive_7.5.0_amd64.deb
 
