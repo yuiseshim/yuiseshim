@@ -9,4 +9,4 @@ alias numfiles="echo $(ls -1 | wc -l)"  # numfiles:  Count of non-hidden files i
 alias edithosts="sudo nano /etc/hosts"  # edithosts: Edit /etc/hosts file
 alias h=history
 alias globalip='curl inet-ip.info'
-alias emacs='emacs -nw'~
+alias emacs='emacs -nw'
