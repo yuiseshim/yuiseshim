@@ -15,6 +15,6 @@ echo -e '\n' >> ~/.profile
 source ~/.bashrc
 
 # python virtual env.
-pyenv install 3.8.3
-pyenv virtualenv 3.8.3 py38
+pyenv install 3.8.5
+pyenv virtualenv 3.8.5 py38
 pyenv global py38
