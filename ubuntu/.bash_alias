@@ -1,0 +1,12 @@
+alias .5="cd ../../../../../"           # Go back 5 directory levels
+alias .6="cd ../../../../../../"        # Go back 6 directory levels
+alias f="open ."                        # f:         Open the current directory in Finder
+alias ~="cd ~"                          # ~:         Go Home
+alias c="clear"                         # c:         Clear terminal display
+alias ip="curl icanhazip.com"           # ip:        Your public IP address
+alias ut="uptime"                       # ut:        Computer uptime
+alias numfiles="echo $(ls -1 | wc -l)"  # numfiles:  Count of non-hidden files in current dir
+alias edithosts="sudo nano /etc/hosts"  # edithosts: Edit /etc/hosts file
+alias h=history
+alias globalip='curl inet-ip.info'
+alias emacs='emacs -nw'~
