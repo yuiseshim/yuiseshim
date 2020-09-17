@@ -4,6 +4,7 @@ sudo apt-get -y emacs
 sudo apt-get install -y openssh-server
 sudo apt-get install -y swig
 sudo apt-get install -y wkhtmltopdf #html2image
+sudo apt-get install -y tmux
 
 # ExpanDrive
 exfs --help 
