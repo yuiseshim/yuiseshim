@@ -10,8 +10,8 @@ echo 'if [ -d "${PYENV_ROOT}" ]; then' >> ~/.profile
 echo '  export PATH=${PYENV_ROOT}/bin:$PATH'
 echo '  eval "$(pyenv init -)"' >> ~/.profile
 echo '  eval "$(pyenv virtualenv-init -)"' >> ~/.profile
-echo -e 'fi\n' >> ~/.profile
-echo 'export PYTHONPATH="$HOME/Desktop"' >> ~/.profile
+echo 'fi\n' >> ~/.profile
+echo -e '\n' >> ~/.profile
 source ~/.bashrc
 
 # python virtual env.
