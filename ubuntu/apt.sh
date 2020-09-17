@@ -31,10 +31,6 @@ sudo apt-get install -y ddskk
 sudo apt-get install -y yaskkserv skksearch dbskkd-cdb
 sudo apt-get install -y dbskkd-cdb fcitx-skk ibus-skk 
 sudo apt-get install -y mlterm-im-skk skksearch skktools skkdic-cdb skkdic-extra uim-skk
-sudo apt-get install -y yaskkserv 
-sudo apt-get install -y skksearch 
-sudo apt-get install -y dbskkd-cdb
-
 
 # Mecab
 sudo apt-get -y install mecab libmecab-dev mecab-ipadic-utf8 mecab-ipadic
