@@ -1,0 +1,5 @@
+hostname ***
+
+lsblk
+
+fdisk -l
