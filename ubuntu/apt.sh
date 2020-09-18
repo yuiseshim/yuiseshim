@@ -55,4 +55,4 @@ mkdir ~/GoogleDrive
 google-drive-ocamlfuse ~/GoogleDrive
 
 # Security
-sudo apt install clamav clamav-daemon
+sudo apt-get install -y clamav clamav-daemon
