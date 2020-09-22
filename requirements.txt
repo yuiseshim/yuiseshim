@@ -40,3 +40,4 @@ pydub
 memory_profiler
 timeout-decorator
 openpyxl
+ImageHash
