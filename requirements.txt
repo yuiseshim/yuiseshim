@@ -43,3 +43,4 @@ openpyxl
 ImageHash
 adabound
 chariot
+Optuna
