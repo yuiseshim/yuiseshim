@@ -8,6 +8,7 @@ tensorflow-probability
 tensorboardX
 holoviews
 opencv-python
+opencv-contrib-python
 mecab-python3
 statsmodels
 beautifulsoup4
@@ -44,3 +45,4 @@ ImageHash
 adabound
 chariot
 Optuna
+seaborn
