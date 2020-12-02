@@ -42,5 +42,10 @@ python -m bash_kernel.install
 #sudo spctl –master-disable #「すべてのアプリケーションを許可」
 #sudo spctl –master-enable #戻す
 
+# Screen Shot
+mkdir ~/ScreenShot
+defaults write com.apple.screencapture location ~/ScreenShot/
+killall SystemUIServer
+
 
 npm install -g electron@1.8.4 orca # plotly
