@@ -3,6 +3,7 @@ torch
 torchtext
 torchvision
 #tensorflow
+keras
 tensorflow-hub
 tensorflow-probability
 tensorboardX
