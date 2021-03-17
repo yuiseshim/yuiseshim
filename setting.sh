@@ -49,3 +49,7 @@ killall SystemUIServer
 
 
 npm install -g electron@1.8.4 orca # plotly
+
+defaults write com.apple.screencapture location ~/ScreenShots
+#defaults delete com.apple.screencapture location
+killall SystemUIServer
