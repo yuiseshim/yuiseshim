@@ -44,6 +44,7 @@ brew install ghostscript
 brew install nkf
 # brew install git
 brew install svn
+brew install expect
 brew install pyenv pyenv-virtualenv pyenv-virtualenvwrapper
 brew install portaudio
 brew install hdf5
