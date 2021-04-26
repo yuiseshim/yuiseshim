@@ -56,7 +56,7 @@ brew install libreoffice
 brew install the-unarchiver
 brew install slack
 brew install karabiner-elements
-brew nstall google-cloud-sdk
+brew install google-cloud-sdk
 brew install tunnelblick
 brew install gimp
 brew install firealpaca
