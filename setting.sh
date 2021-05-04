@@ -43,6 +43,7 @@ python -m bash_kernel.install
 #sudo spctl –master-enable #戻す
 
 # Screen Shot
+defaults write com.apple.screencapture name ScreenShot
 mkdir ~/ScreenShot
 defaults write com.apple.screencapture location ~/ScreenShot/
 killall SystemUIServer
