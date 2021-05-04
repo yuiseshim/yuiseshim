@@ -44,6 +44,7 @@ python -m bash_kernel.install
 
 # Screen Shot
 defaults write com.apple.screencapture name ScreenShot
+defaults write com.apple.screencapture type jpg
 mkdir ~/ScreenShot
 defaults write com.apple.screencapture location ~/ScreenShot/
 killall SystemUIServer
