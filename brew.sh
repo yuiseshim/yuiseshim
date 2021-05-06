@@ -60,6 +60,7 @@ brew install google-cloud-sdk
 brew install tunnelblick
 brew install gimp
 brew install firealpaca
+brew install google-chat
 
 brew install onyx
 brew install macdown
